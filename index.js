@@ -1,5 +1,5 @@
 
-let random = Math.floor(Math.random() * 50 + 1);
+let random = Math.floor(Math.random() * 30 + 1);
 
 document.querySelector('.postNum').innerHTML = random
 
