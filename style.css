@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: "Roboto";
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    margin: 0 0.8rem;
+}
+
+.profileInfo{
+    display: flex;
+    padding: 0.6rem 1.4rem;
+}
+
+.profileInfo img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.profilestats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.bio{
+    padding: 0 1.4rem;
+}
+
+.bio span{
+    font-weight: lighter;
+}
+
+.bio p{
+    font-size: 1rem;
+}
+
+.highlights{
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    justify-content: space-evenly;
+}
+
+.highlights img{
+    border-radius: 50%;
+}
+
+.story{
+    text-align: center;
+}
+
+.story img{
+    height: 60px;
+    width: 60px;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.posts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0.02rem;
+}
